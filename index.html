@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> ice cream land </title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chela+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--using FontAwesome---------------->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--main------------------------>
+    <section id="main">
+        <!--navigation-------------------------------->
+        <nav>
+            <!--logo--->
+            <a href="#" class="logo">icecream</a>
+            <!--menu--------->
+            <div class="toggle"></div>
+            <ul class="menu">
+                <li class="active"><a href="#main">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact-form">Contact</a></li>
+            </ul>
+            <!--language-->
+            <a href="#" class="lang">En</a>
+        </nav>
+        <!--name--------------------------->
+        <div class="name">
+
+
+            <!--details--------------->
+            <p class="details">welcome to our ice cream shop</p>
+
+
+
+        </div>
+        <!--down arrow-------------->
+        <div class="black-line"></div>
+        <!--social---------------->
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+
+    </section>
+    <!--about----------------------->
+    <section id="about">
+        <!--text---------------------->
+        <div class="about-text">
+            <h1>About Us</h1>
+            <h2>Icecream Land </h2>
+            <p>Enjoy with the delecious icecream with many different favour </p>
+            <button>Try it now </button>
+        </div>
+        <!--about-model----------------->
+        <div class="about-model">
+            <img src="https://www.milkmaid.in/sites/site.prod1.milkmaid.in/files/2020-08/vanilla-2.jpg" alt="ice cream" />
+        </div>
+
+
+    </section>
+    <!--services-------------------->
+    <section id="services">
+        <!--heading-------------->
+        <div class="s-heading">
+            <h1>Services</h1>
+            <p>Here Is The Some Servies Which We Provide You.</p>
+        </div>
+        <!--services-box-container--------->
+        <div class="b-container">
+            <!--box-1---------------->
+            <div class="s-box">
+                <!--img------------->
+                <div class="s-b-img">
+                    <!--type----------->
+                    <div class="s-type">Cone Icecream</div>
+                    <!--name------->
+                    <img src="https://www.thedenizen.co.nz/wp-content/uploads/2020/12/85-1.jpg">
+                </div>
+                <!--text----------------->
+                <div class="s-b-text">
+                    <a href="#">With Cone Iceream enjoy with the awosome favour of vanilla,chocolate,strawberry,blueberry and different favour.</a>
+                </div>
+            </div>
+            <!--box-2---------------->
+            <div class="s-box">
+                <!--img------------->
+                <div class="s-b-img">
+                    <!--type----------->
+                    <div class="s-type">Soft Icecream</div>
+                    <!--name------->
+                    <img src="https://i.pinimg.com/originals/ad/a5/70/ada5708349246b11c794f2b71eab311e.jpg">
+                </div>
+                <!--text----------------->
+                <div class="s-b-text">
+                    <a href="#">With Soft Iceream enjoy with the awosome favour of vanilla,chocolate,strawberry,blueberry and different favour.</a>
+                </div>
+            </div>
+            <!--box-3---------------->
+            <div class="s-box">
+                <!--img------------->
+                <div class="s-b-img">
+                    <!--type----------->
+                    <div class="s-type">Stick Icecream</div>
+                    <!--name------->
+                    <img src="https://image.freepik.com/free-photo/fruit-ice-cream-stick-bright-color-summer-mood_96064-13.jpg">
+                </div>
+                <!--text----------------->
+                <div class="s-b-text">
+                    <a href="#">With Stick Iceream enjoy with the awosome favour of vanilla,chocolate,strawberry,blueberry and different favour.</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    </section>
+    <!--Contact-btn------------------>
+    <section id="contact-btn">
+        <!--heading-------------->
+        <h1 class="c-b-heading">If You Have Any Idea For Us</h1>
+        <!--btn-------->
+        <button>Contact Us</button>
+    </section>
+    <!--contact-form------------------->
+    <section id="contact-form">
+        <form>
+            <!--left--------------------------------------->
+            <div class="contact-left">
+                <h1 class="c-l-heading">
+                    <font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+                <!--name-------->
+                <div class="f-name">
+                    <font>Name</font>
+                    <input type="text" placeholder="Full Name" />
+                </div>
+                <!--email-------->
+                <div class="f-email">
+                    <font>Email</font>
+                    <input type="email" placeholder="Example@gmail.com" />
+                </div>
+            </div>
+            <!--right------------------------------------------->
+            <div class="contact-right">
+                <!--message-------->
+                <div class="message">
+                    <font>Message</font>
+                    <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+                </div>
+                <!--submit-btn------------>
+                <button>submit</button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript">
+        /*Responsive Navigation*/
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('.toggle').toggleClass('active')
+
+                $('nav ul').toggleClass('active-menu')
+
+
+            })
+        });
+    </script>
+</body>
+
+</html>
